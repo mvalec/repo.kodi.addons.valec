@@ -8,7 +8,7 @@
 		<dir minversion="17.9.0">
 			<info compressed="false">https://github.com/mvalec/repo.kodi.addons.valec/raw/master/addons.xml</info>
 			<checksum>https://github.com/mvalec/repo.kodi.addons.valec/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/mvalec/repo.kodi.addons.valec/raw/master/addons.xml</datadir>
+			<datadir zip="true">https://github.com/mvalec/repo.kodi.addons.valec/raw/master</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
