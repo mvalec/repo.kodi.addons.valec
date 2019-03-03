@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.kodi.addons.valec" name="Valec Repository" version="1.0.0" provider-name="Miro &quot;valec&quot; Valko">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Repozitár doplnkov modifikovaných Valcom">
+		<dir minversion="17.9.0">
+			<info compressed="false">https://github.com/mvalec/repo.kodi.addons.valec/raw/master/addons.xml</info>
+			<checksum>https://github.com/mvalec/repo.kodi.addons.valec/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mvalec/repo.kodi.addons.valec/raw/master/addons.xml</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi doplnky s podporou pre SK</summary>
+    <description lang="en">
+      Collection of addons modified for slovak support.[CR][CR]Modified skin Aeon Nox> SiLVO and other required and recomended addons. Also contains supporting add-ons for getting information from the web about movies, music, and TV series.
+    </description>
+    <description lang="sk">
+      Kolekcia modifikovaných doplnkov, doplnených o podporu slovenčiny.[CR][CR]Modifikovaný doplnok pre zmenu vzhľadu Aeon Nox: Silvo a ďalšie vyžadované a doporučené doplnky. Taktiež podporné doplnky pre získavanie informácií z webu o filmoch, hudbe a seriáloch.
+    </description>
+		<description lang="cs">
+      Kolekce modifikovaných doplňků, doplněných o podporu slovenštiny.[CR][CR]Modifikovaný doplňek pro změnu vzhledu Aeon Nox: Silvo a další požadované a doporučené doplňky. Taky podpůrné doplňky pro získávání informací z webu o filmech, hudbě a seriálech.
+    </description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
