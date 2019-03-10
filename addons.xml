@@ -22,6 +22,36 @@
 	</extension>
 </addon>
 
+<addon id="script.valec.skpatch" name="SK patch" version="1.0.0" provider-name="Miro &quot;Valec&quot; Valko">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="cs">SK patch pro některé doplňky bez slovenské lokalizace</summary>
+		<summary lang="en">SK patch for some untranslated add-ons</summary>
+		<summary lang="sk">SK patch pre niektoré doplnky bez slovenskej lokalizácie</summary>
+		<description lang="cs">Doplnění nebo úprava slovenského překladu do nasledovních doplňků:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch</description>
+		<description lang="en">Add or replace slovak translation for following add-ons:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch</description>
+		<description lang="sk">Doplnenie resp. úprava slovenského prekladu do nasledovných doplnkov:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch</description>
+		<disclaimer lang="en">This add-on modifies or replaces some files in listed add-ons. Uninstalling is only possible by reinstalling the add-ons. Install at your own risk![CR][CR]For bug report visit www.github.com/mvalec/script.valec.skpatch</disclaimer>
+		<disclaimer lang="cz">Tenhle doplněk modifikuje resp. nahrází některé soubory v uvedených doplňcích. Odinstalace je možná jen opětovnou reinstalací daných doplňků. Instalujte na vlastní riziko![CR][CR]Pro nahlášení chyby navštivte www.github.com/mvalec/script.valec.skpatch</disclaimer>
+		<disclaimer lang="sk">Tento doplnok modifikuje resp. nahrádza niektoré súbory v uvedených doplnkoch. Odinštalácia je možná len opätovnou reinštaláciou daných doplnkov. Inštalujte na vlastné riziko![CR][CR]Pre nahlásenie chyby navštívte www.github.com/mvalec/script.valec.skpatch</disclaimer>
+		<license>GNU General Public License, v2</license>
+		<language>sk</language>
+		<website>https://github.com/mvalec/script.valec.skpatch</website>
+		<source>https://github.com/mvalec/script.valec.skpatch</source>
+		<email>mvalec@atlas.sk</email>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+        <news>Prvá verzia</news>
+	</extension>
+</addon>
+
 <addon id="script.valec.skpatch" name="SK patch" version="1.0.1" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
