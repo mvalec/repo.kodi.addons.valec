@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.valec.skpatch" name="SK patch" version="2.0.0" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="2.0.1" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -27,7 +27,10 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-        <news>[B][COLOR FFFF9800]verzia 2.0.0[/COLOR][/B]
+        <news>[B][COLOR FFFF9800]verzia 2.0.1[/COLOR][/B]
+    [*] Opravené ukladanie údajov do internej databázy
+
+[B][COLOR FFFF9800]verzia 2.0.0[/COLOR][/B]
     [*] Kompletne prepracovaný doplnok
     [+] Pridaná služba sledovania verzií podporovaných doplnkov
     [+] Pridané nastavenia
