@@ -22,23 +22,24 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="1.0.0" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="2.0.0" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
 		<provides>executable</provides>
 	</extension>
+	<extension library="service.py" point="xbmc.service" start="login" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="cs">SK patch pro některé doplňky bez slovenské lokalizace</summary>
 		<summary lang="en">SK patch for some untranslated add-ons</summary>
 		<summary lang="sk">SK patch pre niektoré doplnky bez slovenskej lokalizácie</summary>
-		<description lang="cs">Doplnění nebo úprava slovenského překladu do nasledovních doplňků:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch</description>
-		<description lang="en">Add or replace slovak translation for following add-ons:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch</description>
-		<description lang="sk">Doplnenie resp. úprava slovenského prekladu do nasledovných doplnkov:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch</description>
+		<description lang="cs">Doplnění nebo úprava slovenského překladu do nasledovních doplňků:[CR][CR]metadata.artists.universal[CR]metadata.serialzone.cz[CR]metadata.themoviedb.org[CR]metadata.tvdb.com[CR]metadata.tvshows.themoviedb.org[CR]plugin.program.autocompletion[CR]resource.language.sk_sk[CR]script.artistslideshow[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch[CR]script.module.metadatautils[CR]script.skin.helper.colorpicker[CR]script.skin.helper.service[CR]script.skin.helper.widgets[CR]script.skinshortcuts[CR]service.library.data.provider[CR]skin.aeon.nox.silvo</description>
+		<description lang="en">Add or replace slovak translation for following add-ons:[CR][CR]metadata.artists.universal[CR]metadata.serialzone.cz[CR]metadata.themoviedb.org[CR]metadata.tvdb.com[CR]metadata.tvshows.themoviedb.org[CR]plugin.program.autocompletion[CR]resource.language.sk_sk[CR]script.artistslideshow[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch[CR]script.module.metadatautils[CR]script.skin.helper.colorpicker[CR]script.skin.helper.service[CR]script.skin.helper.widgets[CR]script.skinshortcuts[CR]service.library.data.provider[CR]skin.aeon.nox.silvo</description>
+		<description lang="sk">Doplnenie resp. úprava slovenského prekladu do nasledovných doplnkov: [CR][CR]metadata.artists.universal[CR]metadata.serialzone.cz[CR]metadata.themoviedb.org[CR]metadata.tvdb.com[CR]metadata.tvshows.themoviedb.org[CR]plugin.program.autocompletion[CR]resource.language.sk_sk[CR]script.artistslideshow[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch[CR]script.module.metadatautils[CR]script.skin.helper.colorpicker[CR]script.skin.helper.service[CR]script.skin.helper.widgets[CR]script.skinshortcuts[CR]service.library.data.provider[CR]skin.aeon.nox.silvo</description>
+		<disclaimer lang="cs">Tenhle doplněk modifikuje resp. nahrází některé soubory v uvedených doplňcích. Odinstalace je možná jen opětovnou reinstalací daných doplňků. Instalujte na vlastní riziko![CR][CR]Pro nahlášení chyby navštivte www.github.com/mvalec/script.valec.skpatch</disclaimer>
 		<disclaimer lang="en">This add-on modifies or replaces some files in listed add-ons. Uninstalling is only possible by reinstalling the add-ons. Install at your own risk![CR][CR]For bug report visit www.github.com/mvalec/script.valec.skpatch</disclaimer>
-		<disclaimer lang="cz">Tenhle doplněk modifikuje resp. nahrází některé soubory v uvedených doplňcích. Odinstalace je možná jen opětovnou reinstalací daných doplňků. Instalujte na vlastní riziko![CR][CR]Pro nahlášení chyby navštivte www.github.com/mvalec/script.valec.skpatch</disclaimer>
 		<disclaimer lang="sk">Tento doplnok modifikuje resp. nahrádza niektoré súbory v uvedených doplnkoch. Odinštalácia je možná len opätovnou reinštaláciou daných doplnkov. Inštalujte na vlastné riziko![CR][CR]Pre nahlásenie chyby navštívte www.github.com/mvalec/script.valec.skpatch</disclaimer>
 		<license>GNU General Public License, v2</license>
 		<language>sk</language>
@@ -48,41 +49,27 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-        <news>Prvá verzia</news>
-	</extension>
-</addon>
+        <news>[B][COLOR FFFF9800]verzia 2.0.0[/COLOR][/B]
+    [*] Kompletne prepracovaný doplnok
+    [+] Pridaná služba sledovania verzií podporovaných doplnkov
+    [+] Pridané nastavenia
+    [+] Možnosť povoliť/zakázať modifikáciu jednotlivých doplnkov
+    [+] Pridaná podpora pre script.module.metadatautils v 1.0.19
+    [+] Pridaná podpora pre script.skin.helper.service v 1.1.24
+    [+] Pridaná podpora pre metadata.artists.universal v 4.3.0
+    [*] Aktualizácia pre metadata.themoviedb.org (+ 5.1.7)
+    [*] Aktualizácia pre script.cu.lrclyrics (+ 5.5.14)
+    [*] Aktualizácia pre script.skinshortcuts (+ 1.0.18)
+    [*] Aktualizácia pre skin.aeon.nox.silvo (+ 7.0.1)
+    [*] Úprava slovenčiny pre metadata.tvdb.com
+    [*] Úprava slovenčiny pre metadata.tvshows.themoviedb.org
+    [*] Úprava slovenčiny pre plugin.program.autocompletion
+    [*] Úprava slovenčiny pre resource.language.sk_sk
+    [*] Úprava slovenčiny pre script.skin.helper.widgets
 
-<addon id="script.valec.skpatch" name="SK patch" version="1.0.1" provider-name="Miro &quot;Valec&quot; Valko">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="cs">SK patch pro některé doplňky bez slovenské lokalizace</summary>
-		<summary lang="en">SK patch for some untranslated add-ons</summary>
-		<summary lang="sk">SK patch pre niektoré doplnky bez slovenskej lokalizácie</summary>
-		<description lang="cs">Doplnění nebo úprava slovenského překladu do nasledovních doplňků:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch[CR]script.artistslideshow</description>
-		<description lang="en">Add or replace slovak translation for following add-ons:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch[CR]script.artistslideshow</description>
-		<description lang="sk">Doplnenie resp. úprava slovenského prekladu do nasledovných doplnkov:[CR][CR]skin.aeon.nox.silvo[CR]resource.language.sk_sk[CR]metadata.tvdb.com[CR]metadata.themoviedb.org[CR]metadata.tvshows.themoviedb.org[CR]metadata.serialzone.cz[CR]script.skinshortcuts[CR]script.skin.helper.colorpicker[CR]script.skin.helper.widgets[CR]service.library.data.provider[CR]plugin.program.autocompletion[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.globalsearch[CR]script.artistslideshow</description>
-		<disclaimer lang="en">This add-on modifies or replaces some files in listed add-ons. Uninstalling is only possible by reinstalling the add-ons. Install at your own risk![CR][CR]For bug report visit www.github.com/mvalec/script.valec.skpatch</disclaimer>
-		<disclaimer lang="cz">Tenhle doplněk modifikuje resp. nahrází některé soubory v uvedených doplňcích. Odinstalace je možná jen opětovnou reinstalací daných doplňků. Instalujte na vlastní riziko![CR][CR]Pro nahlášení chyby navštivte www.github.com/mvalec/script.valec.skpatch</disclaimer>
-		<disclaimer lang="sk">Tento doplnok modifikuje resp. nahrádza niektoré súbory v uvedených doplnkoch. Odinštalácia je možná len opätovnou reinštaláciou daných doplnkov. Inštalujte na vlastné riziko![CR][CR]Pre nahlásenie chyby navštívte www.github.com/mvalec/script.valec.skpatch</disclaimer>
-		<license>GNU General Public License, v2</license>
-		<language>sk</language>
-		<website>https://github.com/mvalec/script.valec.skpatch</website>
-		<source>https://github.com/mvalec/script.valec.skpatch</source>
-		<email>mvalec@atlas.sk</email>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-        <news>[B][COLOR FFFF9800]verzia 1.0.1[/COLOR][/B]
-    [+] Pridaná SK podpora pre doplnok script.artistslideshow v 2.1.3
 
-[B][COLOR FFFF9800]verzia 1.0.0[/COLOR][/B]
-    Prvá verzia
+[B][COLOR FFFF9800]verzia 1.0.1[/COLOR][/B]
+    [+] Pridaná podpora pre script.artistslideshow v 2.1.3
         </news>
 	</extension>
 </addon>
