@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="2.0.1" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="2.0.2" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,7 +49,11 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-        <news>[B][COLOR FFFF9800]verzia 2.0.1[/COLOR][/B]
+        <news>[B][COLOR FFFF9800]verzia 2.0.2[/COLOR][/B]
+    [*] Aktualizácia pre metadata.serialzone.cz v 2.6+
+    [*] Aktualizácia pre script.artistslideshow v 2.1.4
+
+[B][COLOR FFFF9800]verzia 2.0.1[/COLOR][/B]
     [*] Opravené ukladanie údajov do internej databázy
 
 [B][COLOR FFFF9800]verzia 2.0.0[/COLOR][/B]
@@ -70,9 +74,6 @@
     [*] Úprava slovenčiny pre resource.language.sk_sk
     [*] Úprava slovenčiny pre script.skin.helper.widgets
 
-
-[B][COLOR FFFF9800]verzia 1.0.1[/COLOR][/B]
-    [+] Pridaná podpora pre script.artistslideshow v 2.1.3
         </news>
 	</extension>
 </addon>
