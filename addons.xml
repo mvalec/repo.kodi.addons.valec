@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="2.0.2" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="2.0.3" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,30 +49,17 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-        <news>[B][COLOR FFFF9800]verzia 2.0.2[/COLOR][/B]
+        <news>[B][COLOR FFFF9800]verzia 2.0.3[/COLOR][/B]
+    [*] Aktualizácia pre metadata.tvdb.com 3.0.15
+    [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.1.1
+    [*] Aktualizácia pre metadata.album.universal 4.3.1
+
+[B][COLOR FFFF9800]verzia 2.0.2[/COLOR][/B]
     [*] Aktualizácia pre metadata.serialzone.cz v 2.6+
     [*] Aktualizácia pre script.artistslideshow v 2.1.4
 
 [B][COLOR FFFF9800]verzia 2.0.1[/COLOR][/B]
     [*] Opravené ukladanie údajov do internej databázy
-
-[B][COLOR FFFF9800]verzia 2.0.0[/COLOR][/B]
-    [*] Kompletne prepracovaný doplnok
-    [+] Pridaná služba sledovania verzií podporovaných doplnkov
-    [+] Pridané nastavenia
-    [+] Možnosť povoliť/zakázať modifikáciu jednotlivých doplnkov
-    [+] Pridaná podpora pre script.module.metadatautils v 1.0.19
-    [+] Pridaná podpora pre script.skin.helper.service v 1.1.24
-    [+] Pridaná podpora pre metadata.artists.universal v 4.3.0
-    [*] Aktualizácia pre metadata.themoviedb.org (+ 5.1.7)
-    [*] Aktualizácia pre script.cu.lrclyrics (+ 5.5.14)
-    [*] Aktualizácia pre script.skinshortcuts (+ 1.0.18)
-    [*] Aktualizácia pre skin.aeon.nox.silvo (+ 7.0.1)
-    [*] Úprava slovenčiny pre metadata.tvdb.com
-    [*] Úprava slovenčiny pre metadata.tvshows.themoviedb.org
-    [*] Úprava slovenčiny pre plugin.program.autocompletion
-    [*] Úprava slovenčiny pre resource.language.sk_sk
-    [*] Úprava slovenčiny pre script.skin.helper.widgets
 
         </news>
 	</extension>
