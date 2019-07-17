@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="2.0.4" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="2.0.5" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,7 +49,10 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-        <news>[B][COLOR FFFF9800]verzia 2.0.4[/COLOR][/B]
+        <news>[B][COLOR FFFF9800]verzia 2.0.5[/COLOR][/B]
+    [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.2
+
+[B][COLOR FFFF9800]verzia 2.0.4[/COLOR][/B]
     [*] Aktualizácia pre metadata.artists.universal 4.3.2
 
 [B][COLOR FFFF9800]verzia 2.0.3[/COLOR][/B]
@@ -60,9 +63,6 @@
 [B][COLOR FFFF9800]verzia 2.0.2[/COLOR][/B]
     [*] Aktualizácia pre metadata.serialzone.cz v 2.6+
     [*] Aktualizácia pre script.artistslideshow v 2.1.4
-
-[B][COLOR FFFF9800]verzia 2.0.1[/COLOR][/B]
-    [*] Opravené ukladanie údajov do internej databázy
 
         </news>
 	</extension>
