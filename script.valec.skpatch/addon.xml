@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.valec.skpatch" name="SK patch" version="2.0.8" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="2.0.9" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -27,10 +27,13 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-        <news>[B][COLOR FFFF9800]verzia 2.0.8[/COLOR][/B]
-    [*] Aktualizácia pre script.embuary.info (1.0.13+)
-    [*] Aktualizácia pre script.embuary.helper (1.2.22)
-    [*] Aktualizácia pre script.skin.helper.colorpicker (1.0.13+)
+        <news>[B][COLOR FFFF9800]verzia 2.0.9[/COLOR][/B]
+    [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.6
+
+[B][COLOR FFFF9800]verzia 2.0.8[/COLOR][/B]
+    [*] Aktualizácia pre script.embuary.info 1.0.13
+    [*] Aktualizácia pre script.embuary.helper 1.2.22
+    [*] Aktualizácia pre script.skin.helper.colorpicker 1.0.13
 
 [B][COLOR FFFF9800]verzia 2.0.7[/COLOR][/B]
     [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.4
