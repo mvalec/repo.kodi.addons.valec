@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="2.0.12" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="2.0.13" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,8 +49,12 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 2.0.12[/COLOR][/B]
-	[*] Aktualizácia pre script.embuary.info 1.0.16
+		<news>[B][COLOR FFFF9800]verzia 2.0.13[/COLOR][/B]
+    [*] Aktualizácia pre script.embuary.info 1.0.20
+    [*] Aktualizácia pre script.embuary.helper 1.2.25
+
+[B][COLOR FFFF9800]verzia 2.0.12[/COLOR][/B]
+    [*] Aktualizácia pre script.embuary.info 1.0.16
     [*] Aktualizácia pre script.embuary.helper 1.2.23
 
 [B][COLOR FFFF9800]verzia 2.0.11[/COLOR][/B]
@@ -74,14 +78,7 @@
     [*] Aktualizácia resource.language.sk_sk 9.0.17
     [+] Pridaná podpora pre script.embuary.info (+ 1.0.10)
     [+] Pridaná podpora pre script.embuary.helper (+ 1.2.20)
-
-[B][COLOR FFFF9800]verzia 2.0.6[/COLOR][/B]
-    [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.3
-    [*] Aktualizácia pre metadata.tvdb.com 3.0.16
-    [*] Aktualizácia pre metadata.themoviedb.org 5.1.8
-    [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.1.2
-
-       </news>
+		</news>
 	</extension>
 </addon>
 </addons>
