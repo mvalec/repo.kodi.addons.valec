@@ -87,7 +87,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="3.0.0" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="3.0.1" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -114,7 +114,11 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 3.0.0[/COLOR][/B]
+		<news>[B][COLOR FFFF9800]verzia 3.0.1[/COLOR][/B]
+    [*] Opravená detekcia referenčných súborov pre novšie verzie podporovaných doplnkov
+    [*] Aktualizácia pre script.cu.lrclyrics 5.6.1
+
+[B][COLOR FFFF9800]verzia 3.0.0[/COLOR][/B]
     [+] Do nastavení pridaná možnosť diagnostiky stavu inštalácie SK patchu
 ....[+] Pridaná detekcia možnosti inštalácie SK patchu aj na neznáme verzie podporovaných doplnkov
     [*] Upravená detekcia zmeny/reinštalácie podporovaných pluginov
