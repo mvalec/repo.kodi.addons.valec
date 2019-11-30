@@ -87,7 +87,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="3.0.4" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="3.0.5" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -114,7 +114,11 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 3.0.4[/COLOR][/B]
+		<news>[B][COLOR FFFF9800]verzia 3.0.5[/COLOR][/B]
+    [*] Aktualizácia pre script.cu.lrclyrics 5.7.1
+    [*] Aktualizácia pre script.embuary.info 1.1.8
+
+[B][COLOR FFFF9800]verzia 3.0.4[/COLOR][/B]
     [*] Aktualizácia pre metadata.themoviedb.org 5.1.9
     [*] Aktualizácia pre metadata.tvdb.com 3.2.1
     [*] Aktualizácia pre script.embuary.helper 1.3.6
@@ -151,11 +155,6 @@
 [B][COLOR FFFF9800]verzia 2.0.12[/COLOR][/B]
     [*] Aktualizácia pre script.embuary.info 1.0.16
     [*] Aktualizácia pre script.embuary.helper 1.2.23
-
-[B][COLOR FFFF9800]verzia 2.0.11[/COLOR][/B]
-    [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.7
-    [*] Aktualizácia resource.language.sk_sk 9.0.18
-    [*] Aktualizácia pre metadata.themoviedb.org 5.1.9
 
 		</news>
 	</extension>
