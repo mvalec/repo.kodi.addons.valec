@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="2.1.0" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="3.0.6" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,72 +49,16 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 2.1.0[/COLOR][/B]
-    [*] Upravená detekcia zmeny/reinštalácie podporovaných pluginov
-    [+] Pridaná podpora pre script.skin.helper.skinbackup (+ 1.0.19)
-    [*] Opravená aktualizácia pre script.embuary.info 1.0.20
+		<news>[B][COLOR FFFF9800]verzia 3.0.6[/COLOR][/B]
+    [*] Aktualizácia pre metadata.themoviedb.org 5.1.10
+    [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.4.0
+    [*] Aktualizácia pre script.artistslideshow 3.0.0
+    [*] Aktualizácia pre script.common.plugin.cache 2.6.1
+    [*] Aktualizácia pre script.cu.lrclyrics 5.7.3
+    [*] Aktualizácia pre script.embuary.helper 1.3.9
+    [*] Aktualizácia pre script.embuary.info 1.2.0
 
-[B][COLOR FFFF9800]verzia 2.0.13[/COLOR][/B]
-    [*] Aktualizácia pre script.embuary.info 1.0.20
-    [*] Aktualizácia pre script.embuary.helper 1.2.25
-
-[B][COLOR FFFF9800]verzia 2.0.12[/COLOR][/B]
-    [*] Aktualizácia pre script.embuary.info 1.0.16
-    [*] Aktualizácia pre script.embuary.helper 1.2.23
-
-[B][COLOR FFFF9800]verzia 2.0.11[/COLOR][/B]
-    [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.7
-    [*] Aktualizácia resource.language.sk_sk 9.0.18
-    [*] Aktualizácia pre metadata.themoviedb.org 5.1.9
-
-[B][COLOR FFFF9800]verzia 2.0.10[/COLOR][/B]
-    [*] Oprava aktualizácie pre skin.aeon.nox.silvo 7.0.6
-
-[B][COLOR FFFF9800]verzia 2.0.9[/COLOR][/B]
-    [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.6
-
-[B][COLOR FFFF9800]verzia 2.0.8[/COLOR][/B]
-    [*] Aktualizácia pre script.embuary.info 1.0.13
-    [*] Aktualizácia pre script.embuary.helper 1.2.22
-    [*] Aktualizácia pre script.skin.helper.colorpicker 1.0.13
-
-[B][COLOR FFFF9800]verzia 2.0.7[/COLOR][/B]
-    [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.4
-    [*] Aktualizácia resource.language.sk_sk 9.0.17
-    [+] Pridaná podpora pre script.embuary.info (+ 1.0.10)
-    [+] Pridaná podpora pre script.embuary.helper (+ 1.2.20)
-		</news>
-	</extension>
-</addon>
-
-<addon id="script.valec.skpatch" name="SK patch" version="3.0.5" provider-name="Miro &quot;Valec&quot; Valko">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension library="service.py" point="xbmc.service" start="login" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="cs">SK patch pro některé doplňky bez slovenské lokalizace</summary>
-		<summary lang="en">SK patch for some untranslated add-ons</summary>
-		<summary lang="sk">SK patch pre niektoré doplnky bez slovenskej lokalizácie</summary>
-		<description lang="cs">Doplnění nebo úprava slovenského překladu do nasledovních doplňků:[CR][CR]metadata.artists.universal[CR]metadata.serialzone.cz[CR]metadata.themoviedb.org[CR]metadata.tvdb.com[CR]metadata.tvshows.themoviedb.org[CR]plugin.program.autocompletion[CR]resource.language.sk_sk[CR]script.artistslideshow[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.embuary.helper[CR]script.embuary.info[CR]script.globalsearch[CR]script.module.metadatautils[CR]script.skin.helper.colorpicker[CR]script.skin.helper.service[CR]script.skin.helper.skinbackup[CR]script.skin.helper.widgets[CR]script.skinshortcuts[CR]service.library.data.provider[CR]skin.aeon.nox.silvo</description>
-		<description lang="en">Add or replace slovak translation for following add-ons:[CR][CR]metadata.artists.universal[CR]metadata.serialzone.cz[CR]metadata.themoviedb.org[CR]metadata.tvdb.com[CR]metadata.tvshows.themoviedb.org[CR]plugin.program.autocompletion[CR]resource.language.sk_sk[CR]script.artistslideshow[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.embuary.helper[CR]script.embuary.info[CR]script.globalsearch[CR]script.module.metadatautils[CR]script.skin.helper.colorpicker[CR]script.skin.helper.service[CR]script.skin.helper.skinbackup[CR]script.skin.helper.widgets[CR]script.skinshortcuts[CR]service.library.data.provider[CR]skin.aeon.nox.silvo</description>
-		<description lang="sk">Doplnenie resp. úprava slovenského prekladu do nasledovných doplnkov:[CR][CR]metadata.artists.universal[CR]metadata.serialzone.cz[CR]metadata.themoviedb.org[CR]metadata.tvdb.com[CR]metadata.tvshows.themoviedb.org[CR]plugin.program.autocompletion[CR]resource.language.sk_sk[CR]script.artistslideshow[CR]script.common.plugin.cache[CR]script.cu.lrclyrics[CR]script.embuary.helper[CR]script.embuary.info[CR]script.globalsearch[CR]script.module.metadatautils[CR]script.skin.helper.colorpicker[CR]script.skin.helper.service[CR]script.skin.helper.skinbackup[CR]script.skin.helper.widgets[CR]script.skinshortcuts[CR]service.library.data.provider[CR]skin.aeon.nox.silvo</description>
-		<disclaimer lang="cs">Tenhle doplněk modifikuje resp. nahrází některé soubory v uvedených doplňcích. Odinstalace je možná jen opětovnou reinstalací daných doplňků. Instalujte na vlastní riziko![CR][CR]Pro nahlášení chyby navštivte www.github.com/mvalec/script.valec.skpatch</disclaimer>
-		<disclaimer lang="en">This add-on modifies or replaces some files in listed add-ons. Uninstalling is only possible by reinstalling the add-ons. Install at your own risk![CR][CR]For bug report visit www.github.com/mvalec/script.valec.skpatch</disclaimer>
-		<disclaimer lang="sk">Tento doplnok modifikuje resp. nahrádza niektoré súbory v uvedených doplnkoch. Odinštalácia je možná len opätovnou reinštaláciou daných doplnkov. Inštalujte na vlastné riziko![CR][CR]Pre nahlásenie chyby navštívte www.github.com/mvalec/script.valec.skpatch</disclaimer>
-		<license>GNU General Public License, v2</license>
-		<language>sk</language>
-		<website>https://github.com/mvalec/script.valec.skpatch</website>
-		<source>https://github.com/mvalec/script.valec.skpatch</source>
-		<email>mvalec@atlas.sk</email>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-		<news>[B][COLOR FFFF9800]verzia 3.0.5[/COLOR][/B]
+[B][COLOR FFFF9800]verzia 3.0.5[/COLOR][/B]
     [*] Aktualizácia pre script.cu.lrclyrics 5.7.1
     [*] Aktualizácia pre script.embuary.info 1.1.8
 
@@ -142,19 +86,6 @@
     [+] Pridaná detekcia možnosti inštalácie SK patchu aj na neznáme verzie podporovaných doplnkov
     [*] Upravená detekcia zmeny/reinštalácie podporovaných pluginov
     [*] Aktualizácia pre script.embuary.helper 1.2.28
-
-[B][COLOR FFFF9800]verzia 2.1.0[/COLOR][/B]
-    [*] Upravená detekcia zmeny/reinštalácie podporovaných pluginov
-    [+] Pridaná podpora pre script.skin.helper.skinbackup (+ 1.0.19)
-    [*] Opravená aktualizácia pre script.embuary.info 1.0.20
-
-[B][COLOR FFFF9800]verzia 2.0.13[/COLOR][/B]
-    [*] Aktualizácia pre script.embuary.info 1.0.20
-    [*] Aktualizácia pre script.embuary.helper 1.2.25
-
-[B][COLOR FFFF9800]verzia 2.0.12[/COLOR][/B]
-    [*] Aktualizácia pre script.embuary.info 1.0.16
-    [*] Aktualizácia pre script.embuary.helper 1.2.23
 
 		</news>
 	</extension>
