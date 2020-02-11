@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="3.0.7" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="3.0.8" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,7 +49,14 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 3.0.7[/COLOR][/B]
+		<news>[B][COLOR FFFF9800]verzia 3.0.8[/COLOR][/B]
+    [*] Opravená detekcia referenčných súborov pre novšie verzie podporovaných doplnkov
+    [*] Opravené reportovanie posledne nainštalovaného SK patchu pre jednotlivé doplnky
+    [*] Aktualizácia pre metadata.tvdb.com 3.2.4
+    [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.4.2
+    [*] Aktualizácia pre script.embuary.helper 1.4.2
+
+[B][COLOR FFFF9800]verzia 3.0.7[/COLOR][/B]
     [*] Aktualizácia pre metadata.tvdb.com 3.2.3
     [*] Aktualizácia pre script.artistslideshow 3.1.0
     [*] Aktualizácia pre script.cu.lrclyrics 5.7.4
