@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="3.0.10" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="3.0.11" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,7 +49,10 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 3.0.10[/COLOR][/B]
+		<news>[B][COLOR FFFF9800]verzia 3.0.11[/COLOR][/B]
+    [*] Aktualizácia pre script.artistslideshow 3.2.1
+
+[B][COLOR FFFF9800]verzia 3.0.10[/COLOR][/B]
     [*] Aktualizácia pre resource.language.sk_sk 9.0.20
 
 [B][COLOR FFFF9800]verzia 3.0.9[/COLOR][/B]
