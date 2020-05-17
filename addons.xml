@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="context.valec.ws" name="Webshare Kontext Menu" version="3.0.1" provider-name="Miro &quot;Valec&quot; Valko">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension point="kodi.context.item" library="default.py">
+        <item>
+            <label>[COLOR blue]$ADDON[context.valec.ws 32033][/COLOR]</label>
+            <visible>String.StartsWith(ListItem.path,plugin://plugin.video.stream-cinema/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)|Container.Content(movies)]</visible>
+        </item>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Kontextové menu pre vyhledávání na Webshare</summary>
+        <summary lang="en">Context menu for searching on the Weabshare</summary>
+        <summary lang="sk">Kontextová ponuka pre vyhľadávanie na Webshaer</summary>
+        <description lang="cs">Kontextové menu v nabídce filmů a seriálů pro vyhledávání linků na serveru Webshare.cz[CR][CR]Tento doplňek je úpravou původního doplňku context.webshare od autora Sároš.</description>
+        <description lang="en">Context menu for movies and TV series for searching links on the server Websaher.cz[CR][CR]This addon is clone of original addon context.webshare by Saros.</description>
+        <description lang="sk">Kontextová ponuka v zozname filmov a seriálov pre vyhľadávanie linkov na serveri Webshare.cz[CR][CR]Tento doplnok je upravou pôvodného doplnku context.webshare od autora Sároš.</description>
+        <assets>
+            <icon>icon.jpg</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.kodi.addons.valec" name="Valec Repository" version="1.0.0" provider-name="Miro &quot;Valec&quot; Valko">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -22,7 +46,7 @@
 	</extension>
 </addon>
 
-<addon id="script.valec.skpatch" name="SK patch" version="3.0.14" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="3.0.15" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -49,7 +73,12 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 3.0.14[/COLOR][/B]
+		<news>[B][COLOR FFFF9800]verzia 3.0.15[/COLOR][/B]
+    [*] Aktualizácia pre metadata.themoviedb.org 5.2.0
+    [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.5.3
+    [*] Aktualizácia pre metadata.tvdb.com 3.2.5
+
+[B][COLOR FFFF9800]verzia 3.0.14[/COLOR][/B]
     [*] Aktualizácia pre script.artistslideshow 3.2.2
     [*] Aktualizácia pre script.embuary.helper 1.4.8
     [*] Aktualizácia pre metadata.themoviedb.org 5.1.11
@@ -84,19 +113,6 @@
     [*] Aktualizácia pre script.artistslideshow 3.1.0
     [*] Aktualizácia pre script.cu.lrclyrics 5.7.4
     [*] Aktualizácia pre skin.aeon.nox.silvo 7.0.9
-
-[B][COLOR FFFF9800]verzia 3.0.6[/COLOR][/B]
-    [*] Aktualizácia pre metadata.themoviedb.org 5.1.10
-    [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.4.0
-    [*] Aktualizácia pre script.artistslideshow 3.0.0
-    [*] Aktualizácia pre script.common.plugin.cache 2.6.1
-    [*] Aktualizácia pre script.cu.lrclyrics 5.7.3
-    [*] Aktualizácia pre script.embuary.helper 1.3.9
-    [*] Aktualizácia pre script.embuary.info 1.2.0
-
-[B][COLOR FFFF9800]verzia 3.0.5[/COLOR][/B]
-    [*] Aktualizácia pre script.cu.lrclyrics 5.7.1
-    [*] Aktualizácia pre script.embuary.info 1.1.8
 
 		</news>
 	</extension>
