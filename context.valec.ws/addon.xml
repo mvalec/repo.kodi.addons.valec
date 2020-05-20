@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="context.valec.ws" name="Webshare Kontext Menu" version="3.0.2" provider-name="Miro &quot;Valec&quot; Valko, Sároš">
+<addon id="context.valec.ws" name="Webshare Kontext Menu" version="3.0.2" provider-name="Miro &quot;Valec&quot; Valko">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
     </requires>
