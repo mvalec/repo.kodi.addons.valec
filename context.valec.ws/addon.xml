@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="context.valec.ws" name="Webshare Kontext Menu" version="3.0.1" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="context.valec.ws" name="Webshare Kontext Menu" version="3.0.2" provider-name="Miro &quot;Valec&quot; Valko, Sároš">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
     </requires>
@@ -10,14 +10,14 @@
             <visible>String.StartsWith(ListItem.path,plugin://plugin.video.stream-cinema/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)|Container.Content(movies)]</visible>
         </item>
     </extension>
-    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.python.pluginsource" library="plugin.py"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="cs">Kontextové menu pre vyhledávání na Webshare</summary>
         <summary lang="en">Context menu for searching on the Weabshare</summary>
         <summary lang="sk">Kontextová ponuka pre vyhľadávanie na Webshaer</summary>
-        <description lang="cs">Kontextové menu v nabídce filmů a seriálů pro vyhledávání linků na serveru Webshare.cz[CR][CR]Tento doplňek je úpravou původního doplňku context.webshare od autora Sároš.</description>
-        <description lang="en">Context menu for movies and TV series for searching links on the server Websaher.cz[CR][CR]This addon is clone of original addon context.webshare by Saros.</description>
-        <description lang="sk">Kontextová ponuka v zozname filmov a seriálov pre vyhľadávanie linkov na serveri Webshare.cz[CR][CR]Tento doplnok je upravou pôvodného doplnku context.webshare od autora Sároš.</description>
+        <description lang="cs">Kontextové menu v nabídce filmů a seriálů pro vyhledávání linků na serveru Webshare.cz[CR][CR]Tento doplňek je úpravou původního doplňku context.webshare od autora Sároš verze 2.4.5.</description>
+        <description lang="en">Context menu for movies and TV series for searching links on the server Websaher.cz[CR][CR]This addon is clone of original addon context.webshare by Saros version 2.4.5.</description>
+        <description lang="sk">Kontextová ponuka v zozname filmov a seriálov pre vyhľadávanie linkov na serveri Webshare.cz[CR][CR]Tento doplnok je upravou pôvodného doplnku context.webshare od autora Sároš verzie 2.4.5.</description>
         <assets>
             <icon>icon.jpg</icon>
         </assets>
