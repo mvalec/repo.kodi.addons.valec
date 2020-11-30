@@ -74,7 +74,14 @@
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
-		<news>[B][COLOR FFFF9800]verzia 3.0.17[/COLOR][/B]
+		<news>[B][COLOR FFFF9800]verzia 3.0.18[/COLOR][/B]
+    [*] Aktualizácia pre script.embuary.helper 1.4.9
+    [*] Aktualizácia pre script.embuary.info 1.2.8
+    [*] Aktualizácia pre metadata.themoviedb.org 5.2.4
+    [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.5.10
+
+
+[B][COLOR FFFF9800]verzia 3.0.17[/COLOR][/B]
     [*] Aktualizácia pre script.cu.lrclyrics 5.8.3
     [*] Aktualizácia pre metadata.themoviedb.org 5.2.2
     [*] Aktualizácia pre metadata.tvshows.themoviedb.org 3.5.5
