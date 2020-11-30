@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.valec.skpatch" name="SK patch" version="3.0.17" provider-name="Miro &quot;Valec&quot; Valko">
+<addon id="script.valec.skpatch" name="SK patch" version="3.0.18" provider-name="Miro &quot;Valec&quot; Valko">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
